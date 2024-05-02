@@ -68,9 +68,9 @@ function Overview() {
                 title="profile information"
                 description="Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
                 info={{
-                  fullName: "Alec M. Thompson",
-                  mobile: "(44) 123 1234 123",
-                  email: "alecthompson@mail.com",
+                  fullName: "william",
+                  mobile: "62893013616371",
+                  email: "williamjeann@mail.com",
                   location: "USA",
                 }}
                 social={[
@@ -78,11 +78,6 @@ function Overview() {
                     link: "https://www.facebook.com/CreativeTim/",
                     icon: <FacebookIcon />,
                     color: "facebook",
-                  },
-                  {
-                    link: "https://twitter.com/creativetim",
-                    icon: <TwitterIcon />,
-                    color: "twitter",
                   },
                   {
                     link: "https://www.instagram.com/creativetimofficial/",
@@ -106,7 +101,7 @@ function Overview() {
           </MDTypography>
           <MDBox mb={1}>
             <MDTypography variant="button" color="text">
-              Architects design houses
+              ui/ux design
             </MDTypography>
           </MDBox>
         </MDBox>
@@ -116,8 +111,8 @@ function Overview() {
               <DefaultProjectCard
                 image={homeDecor1}
                 label="project #2"
-                title="modern"
-                description="As Uber works through a huge amount of internal management turmoil."
+                title="aplikasi sewa costum"
+                description="costum yang disewakan yaitu karakter tertentu "
                 action={{
                   type: "internal",
                   route: "/pages/profile/profile-overview",
@@ -136,8 +131,8 @@ function Overview() {
               <DefaultProjectCard
                 image={homeDecor2}
                 label="project #1"
-                title="scandinavian"
-                description="Music is something that everyone has their own specific opinion about."
+                title="library"
+                description="Library at SMP Negeri 2 Sawan"
                 action={{
                   type: "internal",
                   route: "/pages/profile/profile-overview",
@@ -156,7 +151,7 @@ function Overview() {
               <DefaultProjectCard
                 image={homeDecor3}
                 label="project #3"
-                title="minimalist"
+                title="cooperative"
                 description="Different people have different taste, and various types of music."
                 action={{
                   type: "internal",
@@ -176,7 +171,7 @@ function Overview() {
               <DefaultProjectCard
                 image={homeDecor4}
                 label="project #4"
-                title="gothic"
+                title="salon"
                 description="Why would anyone pick blue over pink? Pink is obviously a better color."
                 action={{
                   type: "internal",
